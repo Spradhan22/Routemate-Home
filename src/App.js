@@ -1,12 +1,10 @@
-import './App.css';
-import Home from './comp/Home';
-import Navbar from './comp/Navbar';
+import "./App.css";
+import Home from "./comp/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Home/>
+      <Home />
     </div>
   );
 }
