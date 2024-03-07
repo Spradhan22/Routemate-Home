@@ -3,7 +3,11 @@ import logo from '../../assets/Logo.jpg'
 function Navbar() {
   return (
    <>
-   <div class=" fixed w-full z-20   top-0 start-0 border-b border-gray-200 backdrop-filter backdrop-blur-lg dark:border-whote bg-opacity-30">
+   <div class=" fixed w-full z-20   top-5 start-0 backdrop-filter  dark:border-whote bg-opacity-30">
+    <div >
+      
+
+    </div>
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://flowbite.com/"  class="flex items-center space-x-3 rtl:space-x-reverse">
   </a>
