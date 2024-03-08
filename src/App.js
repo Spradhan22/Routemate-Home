@@ -6,11 +6,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      
       
     </div>
   );

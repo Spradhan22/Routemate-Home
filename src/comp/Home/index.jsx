@@ -6,13 +6,13 @@ import lt1 from '../../assets/lt1.png'
 import girl from '../../assets/girl.png'
 import boy from '../../assets/boy.png'
 // import {gsap} from 'gsap'
-import "./style.css"
+import "./home.css"
 function Home() {
  // gsap.to(".box", { rotation: 27, x: 100, duration: 1 });
 
   return (
     <>
-    <div className="home-container pt-5 bg-no-repeat bg-center bg-cover" style={{ backgroundImage: `url(${bg1})`}}>
+    <div className="home-container pt-5 bg-no-repeat bg-center bg-cover" >
       
       
       <div className="header" >
@@ -24,14 +24,14 @@ function Home() {
       <div className=" ">
       <div class="rm spin flex h-screen pt-10  w-full  justify-center items-baseline">
       <div >
-    <img src={lt1} alt="leftarrow"/>
+    <img src={lt1}  alt="leftarrow"/>
   </div>  
   
       <div className="" >
     <img src={rt1} alt="rightarrow"/>
   </div>
   </div>
-  <div class=" flex absolute  mt-40 top-40 left-10 right-10 h-screen  w-full  justify-center items-baseline" id="place">
+  <div class=" flex absolute  mt-40 top-40 left-10 right-10 h-screen  w-full items-baseline" id="place">
       <div className="text-right pr-52">
     <img src={boy} className="fade-in w-4/5  pr-20" alt="boyimg"/>
   </div>  
